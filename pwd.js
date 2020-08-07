@@ -4,10 +4,16 @@
 
 //   
 
+
+// module.exports = function (input) {
+//   if (input == 'pwd') {
+//     return process.cwd();
+//   }
+// }
+
 module.exports = function (input) {
   if (input == 'pwd') {
     process.stdout.write(process.cwd());
-    
   }
   process.stdout.write('\nprompt > ');
 }

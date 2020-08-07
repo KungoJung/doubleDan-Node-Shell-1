@@ -16,3 +16,15 @@ module.exports = function (input) {
   process.stdout.write('\nprompt > ');
   };
 }
+// module.exports = function (input) {
+//   if (input == 'ls') {
+//     // implement ls;
+//     fs.readdir('./', 'utf8', (err, files) => {
+//       if (err) {
+//         throw err;
+//       } else {
+//         return files.join('\n');
+//       };
+//     }); 
+//   }
+// }
